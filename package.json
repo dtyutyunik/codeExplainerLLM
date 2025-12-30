@@ -1,0 +1,36 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dtyutyunik/codeExplainerLLM#readme",
+  "bugs": {
+    "url": "https://github.com/dtyutyunik/codeExplainerLLM/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtyutyunik/codeExplainerLLM.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "openai": "^6.15.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  }
+}
